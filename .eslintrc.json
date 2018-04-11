@@ -5,7 +5,9 @@
 		"wordpress",
 		"plugin:react/recommended",
 		"plugin:jsx-a11y/recommended",
-		"plugin:jest/recommended"
+		"plugin:jest/recommended",
+		"prettier",
+		"prettier/react"
 	],
 	"env": {
 		"browser": false,
@@ -153,6 +155,7 @@
 		"object-curly-spacing": ["error", "always"],
 		"padded-blocks": ["error", "never"],
 		"prefer-const": "error",
+		"prettier/prettier": "error",
 		"quote-props": ["error", "as-needed"],
 		"react/display-name": "off",
 		"react/jsx-curly-spacing": [
