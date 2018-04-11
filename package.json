@@ -5,12 +5,19 @@
   "scripts": {
     "start": "cgb-scripts start",
     "build": "cgb-scripts build",
-    "eject": "cgb-scripts eject"
+    "eject": "cgb-scripts eject",
+    "format": "prettier --write --single-quote \"src/**/*.{js,jsx}\"",
+    "format:sass": "prettier --write --tab-width=4 --use-tabs --single-quote=true \"src/sass/**/*.scss\""
   },
   "dependencies": {
     "cgb-scripts": "1.9.4",
     "classnames": "^2.2.5",
-    "jsonp": "^0.2.1",
+    "jsonp": "^0.2.1"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-prettier": "^2.6.0",
     "prettier": "^1.11.1"
   }
 }
